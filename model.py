@@ -42,6 +42,10 @@ class Cartao:
     self.__estabelecimento = estabelecimento
     self.__categoria = categoria
     self.__cartao = cartao
+    def __init__(self, valor, data, estabelecimento, categoria, cartao):
+      self.__valor = valor
+      self.__data = data
+
 
   def __str__(self):
     return f' Compra:{self.__valor} no dia {self.__data} em {self.__estabelecimento} no cartao {self.__cartao.numero}'
