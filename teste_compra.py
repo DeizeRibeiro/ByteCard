@@ -49,3 +49,5 @@ fatura = [compra_farmacia, compra_restaurante, compra_supermercado, compra_amazo
 total = 0
 for compra in fatura: total += compra.valor
 print(f'O total da fatura é: {total}')
+
+      
