@@ -1,7 +1,8 @@
+from excecoes import ValorExcedidoException
+
 from random import randint
 from datetime import date 
 from dateutil.relativedelta import relativedelta
-from excecoes import ValorExcedidoException
 
 def cria_numero_do_cartao():
     grupos_de_numeros = [f'{randint(1, 999): 04}' for i in range (4)]
